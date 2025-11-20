@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,10 +9,11 @@ import Footer from './components/Footer'
 import toast, { Toaster } from 'react-hot-toast';
 
 const App = () => {
+  const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden dark:bg-gray-950'>
       <Toaster />
-      <Navbar/>
+      <Navbar theme={theme} setTheme={setTheme}/>
       <Hero/>
       <About/>
       <Projects/>

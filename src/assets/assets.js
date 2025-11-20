@@ -7,6 +7,9 @@ import left_arrow from './left_arrow.svg'
 import right_arrow from './right_arrow.svg'
 import header_img from './header_img.png'
 import brand_img from './brand_img.png'
+import moon_icon from './moon_icon.svg'
+import sun_icon from './sun_icon.svg'
+import cross_icon_light from './cross_icon_light.png'
 import project_img_1 from './project_img_1.jpg'
 import project_img_2 from './project_img_2.jpg'
 import project_img_3 from './project_img_3.jpg'
@@ -31,6 +34,10 @@ export const assets = {
     project_img_4,
     left_arrow,
     right_arrow,
+    moon_icon,
+    sun_icon,
+    cross_icon_light
+
 }
 
 export const projectsData = [

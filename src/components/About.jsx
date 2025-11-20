@@ -7,7 +7,7 @@ import { easeOut, motion } from "motion/react"
 const About = () => {
     return (
         <div
-        id='about' className='max-w-[1440px] mx-auto flex flex-col items-center max-sm:px-10 max-sm:pt-10 md:pt-15 xl:pt-25 sm:px-12 lg:px-24 xl:px-40'>
+        id='about' className='max-w-[1440px] mx-auto flex flex-col items-center max-sm:px-10 max-sm:pt-10 md:pt-15 xl:pt-25 sm:px-12 lg:px-24 xl:px-40 dark:bg-gray-950'>
 
             <Title heading="About" subheading="Our Brand" description="Passionate About Properties, Dedicated to Your Vision" />
 
@@ -15,7 +15,7 @@ const About = () => {
             className='flex items-center py-4 sm:pt-15 md:gap-20 max-sm:flex-col'>
                 <img src={assets.brand_img} alt="" className="w-full h-full sm:w-1/2 max-w-lg py-3"/>
 
-                    <div className='w-full flex flex-col gap-4 py-3'>
+                    <div className='w-full flex flex-col gap-4 py-3 dark:text-white'>
 
                         <div className='grid grid-cols-2 gap-6'>
                             <div>
@@ -23,15 +23,15 @@ const About = () => {
                                 <p className='text-gray-500'>Years of Excellence</p>
                             </div>
                             <div>
-                                <p className='font-extrabold text-5xl max-sm:text-3xl mb-1'>20+</p>
+                                <p className='font-extrabold text-5xl max-sm:text-3xl mb-1'>10+</p>
                                 <p className='text-gray-500'>Years of Excellence</p>
                             </div>
                             <div>
-                                <p className='font-extrabold text-5xl max-sm:text-3xl mb-1'>20+</p>
+                                <p className='font-extrabold text-5xl max-sm:text-3xl mb-1'>50+</p>
                                 <p className='text-gray-500'>Years of Excellence</p>
                             </div>
                             <div>
-                                <p className='font-extrabold text-5xl max-sm:text-3xl mb-1'>20+</p>
+                                <p className='font-extrabold text-5xl max-sm:text-3xl mb-1'>40+</p>
                                 <p className='text-gray-500'>Years of Excellence</p>
                             </div>
                         </div>

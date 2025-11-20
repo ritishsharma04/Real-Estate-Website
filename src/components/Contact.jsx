@@ -27,15 +27,15 @@ const Contact = () => {
 
     return (
         <div
-            id='contact' className='max-w-[1440px] mx-auto flex flex-col items-center max-sm:px-8 max-sm:pt-6 md:pt-15 xl:pt-25 sm:px-12 lg:px-24 xl:px-40 '>
+            id='contact' className='max-w-[1440px] mx-auto flex flex-col items-center max-sm:px-8 max-md:pt-15 xl:pt-25 sm:px-12 lg:px-24 xl:px-40 '>
 
             <Title heading="Contact" subheading="With Us" description="Ready to Make a Move? Let’s Build Your Future Together" />
 
             <form
                 onSubmit={onSubmit}
-                className='py-4 sm:pt-15 w-full flex flex-col items-center gap-6 sm:px-30'>
+                className='py-4 sm:pt-15 w-full flex flex-col items-center gap-6 sm:px-30 dark:text-white dark:placeholder:text-gray-300'>
                 <div className='flex gap-6 w-full  max-sm:flex-wrap'>
-                    <div className='flex flex-col w-full gap-2'>
+                    <div className='flex flex-col w-full gap-2 '>
                         <label htmlFor="name">Name</label>
                         <input name="name" className='border border-gray-300 outline-0 px-4 py-3 rounded-md' id='name' type="text" placeholder='Enter your name' />
                     </div>
